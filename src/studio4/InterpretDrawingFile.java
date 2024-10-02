@@ -21,6 +21,7 @@ public class InterpretDrawingFile {
 		Scanner in = new Scanner(f); //making Scanner with a File
 
 		String shape = in.next();
+		
 		if (shape.equals("rectangle")) {
 			int red = in.nextInt();
 			int green = in.nextInt();
